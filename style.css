@@ -1,0 +1,83 @@
+ @font-face {
+  font-family: header-font;
+  src: url(BigShouldersStencil-VariableFont_opsz,wght.ttf);
+}
+
+
+ @font-face {
+  font-family: body-font;
+  src: url(RobotoFlex-VariableFont_GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf);
+}
+
+
+html, body {
+ margin:0;
+ padding:0;
+}
+
+body {
+ max-width: 1024px;
+ margin: 0px auto;
+ background-color: #E4F1F6;
+ color: #092834;
+ /*color:#1A3E4C;*/
+ font-family: body-font;
+}
+
+main, nav {
+background-color: #E4F1F6;
+padding: 10px;
+
+}
+
+.active {
+text-decoration: underline;
+}
+
+.list-item {
+	display:flex;
+	flex-direction: row;
+	border-top: 1px solid #bfbfbf;
+
+}
+
+.list-item img {
+	width: 200px;
+	padding: 5px;
+}
+
+.list-item h3 {
+	font-size: 1rem;
+	font-weight: normal;
+}
+
+img {
+	width: 300px;
+	padding: 5px;
+}
+
+header {
+  font-family: header-font;
+	background-color: #347B98;
+	color: white;
+	padding: 20px 5px;
+}
+
+h1 {
+font-size:75px;
+margin:0px;
+}
+
+h2 {
+margin: 20px 0px 15px 0px;
+}
+
+nav {
+	border-bottom: 1px solid #bfbfbf;
+}
+
+nav a {
+	text-decoration: none;
+	color: #464646;
+	margin-right: 5px;
+}

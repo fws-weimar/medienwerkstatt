@@ -1,0 +1,3 @@
+Webseite Medienwerkstatt
+Ein wichtiger Teil der medienwerkstatt Epoche war eine Webseite, in der wir alle unsere Projekte dokumentierten, die wir in der Epoche gemacht hatten.
+Als erstes erstellten wir ein Grundgerüst mit html und das Design mit css, wir machten eine Schriftart und suchten Farben für Hintergrund und Schrift.   
